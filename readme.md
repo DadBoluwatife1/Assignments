@@ -1,0 +1,2 @@
+This is my week 3 projects,I created two folders for the Registration/Login/Success page and My portfolio page. The projects was done with HTML and CSS. For my registration page, the design was done off head, login page -- i searched for templates online while the sucess page was just a card.
+My portfolio page was built using a 12 columnngrid layout from a YouTube video i watched...It was pretty tough and i had a hard time with the responsivesness of the page.

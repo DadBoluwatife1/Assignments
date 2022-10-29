@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white/*(paragraphs)*/: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray/*(background, headings, buttons)*/: hsl(0, 0%, 95%);
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.container {
+  box-sizing: border-box;
+  background-image: url(Week-3/image-header-mobile.jpg);
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 1800px;
+  padding: 30px;
+  margin: 4rem auto;
+
+  /* position: absolute;
+    left: 50%;
+    margin-left: -50px; */
+}
+
+img {
+  max-width: 70%;
+}
+input {
+  width: 70%;
+  background-color: var(--transparent-white);
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--very-light-gray);
+  font-family: "Fraunces", sans-serif;
+}
+button {
+  width: 200px;
+  height: 45px;
+  padding: 8px;
+  margin: 10px 200px;
+  border-radius: 10px;
+  border: 1px none;
+  color: gray;
+  background-color: var(--very-light-gray);
+  font-size: 1em;
+  font-weight: 900;
+}
+button:hover {
+  background-color: gray;
+  color: var(--transparent-white);
+}
+a:visited,
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  color: var(--very-light-gray);
+  padding: 5px;
+  margin: 10px;
+}

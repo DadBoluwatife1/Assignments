@@ -1,0 +1,92 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white/*(paragraphs)*/: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray/*(background, headings, buttons)*/: hsl(0, 0%, 95%);
+  }
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    background-color:var(--very-dark-cyan);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: var(--transparent-white);
+    font-family: "Fraunces", sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 4rem auto;
+    width: 600px;
+  }
+  .page-title {
+    color: var(--transparent-white);
+    border: 1px solid;
+    border-color: var(--very-light-gray);
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    background-color: var(--transparent-white);
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--transparent-white);
+    color: var(--very-dark-cyan);
+    font-family: "Fraunces", sans-serif;
+  }
+  input[type="color"] {
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    background-color: var(--transparent-white);
+  }
+  input[type="tel"] {
+    background-color:var(--transparent-white);
+    color: var(--very-dark-cyan);
+  }
+  input[type="email"] {
+    background-color:var(--transparent-white);
+    color: var(--very-dark-cyan);
+  }
+  select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--transparent-white);
+    color: var(--very-dark-cyan);
+    font-family: "Fraunces", sans-serif;
+  }
+  
+  div > h2 {
+    padding: 5px;
+  }
+  
+  .user-info {
+    padding: 10px;
+    margin: 10px;
+  
+  }
+  button {
+    width: 200px;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3cbc8d;
+    color: var(--transparent-white);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  label{
+    float: left;
+  }
+  
+  
